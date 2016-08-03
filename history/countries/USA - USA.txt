@@ -59,6 +59,9 @@ give_guarantee = PAR
 give_guarantee = ARG
 give_guarantee = URG
 
+create_faction = USAIsolation
+add_to_faction = USA
+
 1939.1.1 = {
 
 	add_political_power = 1199

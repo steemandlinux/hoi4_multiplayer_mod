@@ -57,6 +57,9 @@ create_import = {
 		exporter = USA
 }
 
+create_faction = JapanIsolation
+add_to_faction = JAP
+
 1939.1.1 = {
 
 	add_political_power = 1198
