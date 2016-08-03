@@ -131,54 +131,6 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = strike_usa_focus
-		icon = GFX_goal_generic_occupy_states_coastal
-		prerequisite = { focus = southern_expansion_focus }
-		available = {
-			country_exists = USA
-		}
-		will_lead_to_war_with = USA
-		x = 0
-		y = 2
-		cost = 10
-
-		historical_ai = {
-			date > 1941.10.1
-		}
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				date < 1941.10.1
-			}
-
-			modifier = {
-				factor = 0
-				OR = {
-					any_country = {
-						has_war_with = ROOT
-						is_major = yes
-					}
-					has_war_with_amount > 1
-					AND = {
-						has_war = yes
-						is_in_faction = no
-					}
-				}
-			}			
-		}	
-		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				target = USA
-				generator = { 629 } 
-			}
-			
-			add_timed_idea = { idea = for_the_emperor_idea days = 100 }
-		}
-	}
 	
 	focus = {
 		id = test_the_chinese_focus

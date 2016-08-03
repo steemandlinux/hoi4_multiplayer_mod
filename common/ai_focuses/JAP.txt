@@ -27,7 +27,6 @@ ai_historical_focus_list_JAP = {
 		extra_tech_focus
 		synth_oil_focus
 		southern_expansion_focus
-		strike_usa_focus
 		siamese_puppet_focus
 		jap_improved_sprit_focus
 		subvert_india_focus
