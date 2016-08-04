@@ -23,13 +23,11 @@ ai_historical_focus_list_JAP = {
 		carrier_focus
 		student_movement_focus
 		found_own_faction_focus
-		demand_indochina_focus
 		extra_tech_focus
 		synth_oil_focus
 		southern_expansion_focus
 		siamese_puppet_focus
 		jap_improved_sprit_focus
-		subvert_india_focus
 		secret_weapon_focus
 		divine_wind_focus
 		imperial_glory_focus
