@@ -619,13 +619,13 @@ focus_tree = {
 	focus = {
 		id = GER_army_innovation_2
 		available = {
-			date > 1939.12.31
+			date > 1936.12.31
 		}
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = GER_soviet_treaty }
 		x = 6
 		y = 3
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -643,13 +643,44 @@ focus_tree = {
 				uses = 1
 				name = mech_army_bonus
 				technology = basic_medium_tank
+			}	
+			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
+		}
+	}
+
+	focus = {
+		id = GER_army_innovation_3
+		available = {
+			date > 1939.12.31
+		}
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = GER_army_innovation_2 }
+		x = 6
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			# Balance research bonus to 2 techs in land_doctrine
+			army_experience = 20
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
 				technology = improved_medium_tank
-				technology = advanced_medium_tank
 				technology = mechanised_infantry
 			}	
 			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
 		}
 	}
+
 
 	focus = {
 		id = GER_rocketry_focus

@@ -12,6 +12,7 @@ ai_historical_focus_list_GER = {
 		GER_industrial_effort_2
 		GER_army_innovation
 		GER_soviet_treaty
+		GER_army_innovation_2
 		GER_air_innovation
 		GER_tactical_air_effort
 		GER_anschluss
@@ -24,7 +25,7 @@ ai_historical_focus_list_GER = {
 		GER_danzig_or_war
 		GER_rocketry_focus
 		GER_extra_tech_slot
-		GER_army_innovation_2
+		GER_army_innovation_3
 		GER_war_with_france
 		GER_weserubung		
 		GER_second_vienna_award
