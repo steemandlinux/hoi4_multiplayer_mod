@@ -656,7 +656,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = GER_mol_rib_pact }
 		x = 5
-		y = 4
+		y = 5
 		cost = 5
 		ai_will_do = {
 			factor = 1
