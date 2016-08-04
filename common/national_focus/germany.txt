@@ -618,6 +618,10 @@ focus_tree = {
 
 	focus = {
 		id = GER_army_innovation_2
+		available = {
+			GER = { exists = yes }
+			date > 1939.12.31
+		}
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = GER_soviet_treaty }
 		x = 6
