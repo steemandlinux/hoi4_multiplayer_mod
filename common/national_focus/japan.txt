@@ -344,7 +344,6 @@ focus_tree = {
 			is_puppet = no
 		}
 		prerequisite = { focus = oust_germans_focus }
-		mutually_exclusive = { focus = axis_leanings_focus }
 		x = 5
 		y = 3
 		cost = 10
@@ -371,9 +370,10 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = demand_indochina_focus
-		prerequisite = { focus = found_own_faction_focus focus = axis_leanings_focus }
+		prerequisite = { focus = found_own_faction_focus }
 		available = {
 			16 = { NOT = { is_controlled_by = FRA } }
 			is_puppet = no
@@ -441,7 +441,7 @@ focus_tree = {
 	}
 	focus = {
 		id = subvert_india_focus
-		prerequisite = { focus = found_own_faction_focus focus = axis_leanings_focus }
+		prerequisite = { focus = found_own_faction_focus }
 		available = { 
 			has_war_with = ENG
 			OR = {
@@ -473,7 +473,7 @@ focus_tree = {
 	}
 	focus = {
 		id = jap_improved_sprit_focus
-		prerequisite = { focus = found_own_faction_focus focus = axis_leanings_focus }
+		prerequisite = { focus = found_own_faction_focus }
 		available = { has_war = yes }
 		x = 1
 		y = 4
@@ -1049,7 +1049,6 @@ focus_tree = {
 		id = armor_innovations_focus
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = army_motorization_focus }
-		prerequisite = { focus = axis_leanings_focus }
 		x = 10
 		y = 4
 		cost = 10
