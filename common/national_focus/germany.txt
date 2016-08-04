@@ -654,7 +654,7 @@ focus_tree = {
 			date > 1939.12.31
 		}
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = GER_army_innovation_2 }
+		prerequisite = { focus = GER_mol_rib_pact }
 		x = 5
 		y = 4
 		cost = 5
