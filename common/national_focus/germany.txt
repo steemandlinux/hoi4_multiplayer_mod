@@ -635,7 +635,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = land_doctrine
 			}
 			add_tech_bonus = {
@@ -655,7 +655,7 @@ focus_tree = {
 		}
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = GER_army_innovation_2 }
-		x = 6
+		x = 5
 		y = 4
 		cost = 5
 		ai_will_do = {
@@ -667,7 +667,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = land_doctrine
 			}
 			add_tech_bonus = {
