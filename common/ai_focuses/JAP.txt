@@ -22,7 +22,7 @@ ai_historical_focus_list_JAP = {
 		naval_base_focus
 		carrier_focus
 		student_movement_focus
-		axis_leanings_focus
+		found_own_faction_focus
 		demand_indochina_focus
 		extra_tech_focus
 		synth_oil_focus
