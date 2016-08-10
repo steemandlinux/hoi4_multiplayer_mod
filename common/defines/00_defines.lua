@@ -477,7 +477,7 @@ NAir = {
 	AIR_WING_MAX_STATS_SPEED = 1500,
 	AIR_WING_MAX_STATS_BOMBING = 100,
 	AIR_WING_MAX_SIZE = 1000, 							-- Max amount of airplanes in wing
-	AIR_WING_BOMB_DAMAGE_FACTOR = 1,					-- Used to balance the damage done while bombing. ИЗМЕНЕНО с 2
+	AIR_WING_BOMB_DAMAGE_FACTOR = 2,					-- Used to balance the damage done while bombing. ИЗМЕНЕНО с 2
 	BOMBERS_ENGAGE_PASSES = 1,							-- Combat simulations passes in single fight against the bombers and their escorts (more passes = more bloody)
 	SUPERIORITY_ENGAGE_PASSES = 1,						-- Combat simulations passes in single fight against superiority missions.
 	COMBAT_ESCORT_PASS_CHANCE_BASE = 0.25, 				-- Base % for chance for passing escorts, and attack directly bombers.
@@ -492,7 +492,7 @@ NAir = {
 	COMBAT_ONE_ON_ONE_CHANCE = 0.6, 					-- Base chance for 1vs1 situation.
 	COMBAT_SITUATION_WIN_CHANCE_FROM_STATS = 0.2, 		-- How much good stats difference (speed+agility) affects the winning chance (situation win = give a hit, not necessary kill).
 	COMBAT_SITUATION_WIN_CHANCE_FROM_GANG = 0.18, 		-- How much bonus gives the airplanes amount advantage (2vs1), to winning the situation.
-	COMBAT_SITUATION_PASS_CHANCE = 0.8, 				-- Chance for pass. Nobody hits nobody in current situation. ИЗМЕНЕНО С 0.6
+	COMBAT_SITUATION_PASS_CHANCE = 0.6, 				-- Chance for pass. Nobody hits nobody in current situation. ИЗМЕНЕНО С 0.6
 	COMBAT_MAX_WINGS_AT_ONCE = 6, 						-- Max amount of air wings in one combat simulation. The higher value, the quicker countries may loose their wings. It's a gameplay balance value.
 	COMBAT_MAX_WINGS_AT_GROUND_ATTACK = 30,	        	-- we can really pounce a land strike and escalate
 	COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 1000,        -- we can really pounce a naval strike and escalate
