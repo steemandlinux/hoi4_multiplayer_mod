@@ -572,13 +572,7 @@ focus_tree = {
 					ahead_reduction = 1
 					technology = basic_medium_tank
 				}
-				# Balance research bonus to 2 techs in armor, also in event
-				add_tech_bonus = {
-					name = armor_bonus
-					bonus = 0.5
-					uses = 2
-					category = armor
-				}
+
 			}
 		}
 	}
@@ -621,7 +615,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = GER_soviet_treaty }
 		x = 6
-		y = 3
+		y = 2
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -637,12 +631,13 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+				uses = 3
 				name = mech_army_bonus
-				technology = basic_medium_tank
-				technology = improved_medium_tank
-				technology = advanced_medium_tank
-				technology = mechanised_infantry
+                                technology = improved_medium_tank
+                                technology = improved_heavy_tank
+                                technology = advanced_light_tank
+                                technology = mechanised_infantry
+
 			}	
 			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
 		}

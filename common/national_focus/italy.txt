@@ -966,9 +966,8 @@ focus_tree = {
 				technology = early_fighter
 				technology = fighter1
 				technology = fighter2
-				technology = fighter3
-				technology = jet_fighter1
-				technology = jet_fighter2
+				technology = heavy_fighter1
+				technology = heavy_fighter2
 			}
 			add_tech_bonus = {
 				name = air_doc_bonus
@@ -1168,9 +1167,8 @@ focus_tree = {
 				technology = early_fighter
 				technology = fighter1
 				technology = fighter2
-				technology = fighter3
-				technology = jet_fighter1
-				technology = jet_fighter2
+				technology = heavy_fighter1
+				technology = heavy_fighter2
 			}
 			add_tech_bonus = {
 				name = air_doc_bonus

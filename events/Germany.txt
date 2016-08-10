@@ -2589,7 +2589,7 @@ country_event = {
 			name = armor_bonus
 			bonus = 0.5
 			uses = 1
-			category = armor
+			technology = basic_medium_tank
 		}
 	}
 	
@@ -2621,11 +2621,7 @@ country_event = {
 			ahead_reduction = 1
 			technology = basic_medium_tank
 		}
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 2
-			category = armor
-		}
+
 		SOV = {
 			add_opinion_modifier = { target = GER modifier = sov_ger_treaty }
 			add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
